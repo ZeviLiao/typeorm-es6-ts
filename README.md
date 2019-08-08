@@ -10,3 +10,17 @@
 
 1. install `typeorm` globally: `npm i -g typeorm`
 2. run `typeorm -h` to show list of available commands
+
+
+fixed my TS hightlight
+https://github.com/Microsoft/TypeScript-TmLanguage/
+
+
+use babel with typescript entity
+
+@babel/preset-typescript
+
+https://github.com/Kononnable/typeorm-model-generator
+
+schema gen:
+npx typeorm-model-generator -h localhost -d tempdb -u sa -x !Passw0rd -e mysql
